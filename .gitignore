@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
